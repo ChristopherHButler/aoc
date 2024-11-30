@@ -6,7 +6,7 @@ import {
 const currentDate = "01-12-2000"; // (new Date()).toLocaleDateString('en-GB').split('/').join('-');
 // console.log(formattedDate);
 
-console.log(`Aoc: ${currentDate}`);
+console.log(`AoC: ${currentDate}`);
 console.log('-----------------\n');
 
 // run puzzle solvers
