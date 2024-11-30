@@ -9,7 +9,7 @@ mod utils {
 
 use chrono::Local;
 
-use puzzles::boilerplate::day_00;
+use puzzles::boilerplate;
 
 
 fn main() {
@@ -17,9 +17,10 @@ fn main() {
 	let now = Local::now();
 	let formatted_date = now.format("%d-%m-%Y").to_string();
 
-	// testing boilerplate
+	// test boilerplate
 	let test_date = "01-12-2000";
-	day_00(test_date, true);
+	boilerplate::solvePart1(test_date, true);
+	boilerplate::solvePart2(test_date, true);
 
 	// run puzzle solvers
 	// use_test_data

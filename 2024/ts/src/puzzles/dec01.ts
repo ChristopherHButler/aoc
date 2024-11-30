@@ -2,7 +2,7 @@ import { PuzzleSolver } from './../types/index';
 import { dataFileReader } from '../utils/index';
 
 
-const solvePart1: PuzzleSolver = (date, useTestData = true) => {
+const solvePart1: PuzzleSolver = (date, useTestData = false) => {
 	console.log('Day 01, Part 1');
 
 	// to do: implementation
@@ -13,7 +13,7 @@ const solvePart1: PuzzleSolver = (date, useTestData = true) => {
 	console.log('The answer is...');
 };
 
-const solvePart2: PuzzleSolver = (date, useTestData = true) => {
+const solvePart2: PuzzleSolver = (date, useTestData = false) => {
 	console.log('Day 01, Part 2');
 
 	// to do: implementation

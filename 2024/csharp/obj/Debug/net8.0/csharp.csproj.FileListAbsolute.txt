@@ -1,0 +1,15 @@
+/Users/christopher/code/projects/aoc/2024/csharp/bin/Debug/net8.0/csharp
+/Users/christopher/code/projects/aoc/2024/csharp/bin/Debug/net8.0/csharp.deps.json
+/Users/christopher/code/projects/aoc/2024/csharp/bin/Debug/net8.0/csharp.runtimeconfig.json
+/Users/christopher/code/projects/aoc/2024/csharp/bin/Debug/net8.0/csharp.dll
+/Users/christopher/code/projects/aoc/2024/csharp/bin/Debug/net8.0/csharp.pdb
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/csharp.AssemblyInfoInputs.cache
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/csharp.AssemblyInfo.cs
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/csharp.csproj.CoreCompileInputs.cache
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/csharp.sourcelink.json
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/csharp.dll
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/refint/csharp.dll
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/csharp.pdb
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/csharp.genruntimeconfig.cache
+/Users/christopher/code/projects/aoc/2024/csharp/obj/Debug/net8.0/ref/csharp.dll

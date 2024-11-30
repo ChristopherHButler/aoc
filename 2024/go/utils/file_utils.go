@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 )
 
-func DataFileReader(date string, part string, verbose bool) ([]string, error) {
+func DataFileReader(date string, useTestData bool, part string, verbose bool) ([]string, error) {
 
 	currentDir, err := os.Getwd()
 
@@ -25,7 +25,12 @@ func DataFileReader(date string, part string, verbose bool) ([]string, error) {
 		fmt.Println("Parent directory:", parentDir)
 	}
 
-	fullpath := parentDir + "/common/data/" + date + "-part" + part + "-test-data.txt"
+	var fullpath string
+	if useTestData {
+		fullpath = parentDir + "/common/data/" + date + "-part" + part + "-test-data.txt"
+	} else {
+		fullpath = parentDir + "/common/data/" + date + "-data.txt"
+	}
 
 	if verbose {
 		fmt.Println("Full path:", fullpath)
