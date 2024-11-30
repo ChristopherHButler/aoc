@@ -1,13 +1,18 @@
 import {
+	boilerplate,
 	day01,
 } from './puzzles';
 
 
-const currentDate = "01-12-2000"; // (new Date()).toLocaleDateString('en-GB').split('/').join('-');
-// console.log(formattedDate);
+const currentDate = (new Date()).toLocaleDateString('en-GB').split('/').join('-');
 
 console.log(`AoC: ${currentDate}`);
 console.log('-----------------\n');
+
+// test boilerplate
+const testDate = "01-12-2000";
+boilerplate.solvePart1(testDate, true);
+boilerplate.solvePart2(testDate);
 
 // run puzzle solvers
 
