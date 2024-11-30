@@ -2,7 +2,7 @@ import os
 
 
 
-def data_file_reader(filename = '', date = '', use_test_data = False, part = 1, verbose = False):
+def data_file_reader(filename: str = '', date: str = '', use_test_data: bool = False, part: int = 1, verbose: bool = False) -> list:
 	current_directory = os.getcwd()
 	parent_directory = os.path.dirname(current_directory)
 	if verbose:

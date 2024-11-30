@@ -13,7 +13,7 @@ func main() {
 
 	// test boilerplate
 	// Note - Go does not suport default values or optional parameters.
-	testDate := "01-01-2000"
+	testDate := "01-12-2000"
 	puzzles.Boilerplate.SolvePart1(testDate, true)
 	puzzles.Boilerplate.SolvePart2(testDate, true)
 

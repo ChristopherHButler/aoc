@@ -1,8 +1,10 @@
 # AoC 2024 - C# edition
 
+This is a C# implementation of Advent of Code 2024.
+
 ## About 
 
- - `Program.cs` is the entry point to the program which allows you to run all puzzles.
+ - `Program.cs` is the entry point to the program which allows you to run all puzzle solvers.
 
  - Puzzle solvers are implemented as csharp static classes (so you do not need to instantiate them)
 
@@ -40,14 +42,15 @@ public interface IPuzzle
 }
  ```
 
-This interface provides sensible defaults to run the puzzle solver. If you want to run a puzzle for a day other the the current day or use test data, you will need to pass the parameter in.
+This interface provides sensible defaults to run the puzzle solver. 
+If you want to run a puzzle for a day other the the current day or use test data, you will need to pass the parameter in.
 
 ```cs
 // run day XX part 1 using real data
-DecXX.solvePart1(currentDate, useTestData: true);
+DecXX.solvePart1(currentDate);
 
 // run day XX part 2 using test data
-DecXX.solvePart2(currentDate);
+DecXX.solvePart2(currentDate, useTestData = true);
 ```
 
 comment out any solvers you do not want to run.

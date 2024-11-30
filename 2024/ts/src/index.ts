@@ -16,5 +16,5 @@ boilerplate.solvePart2(testDate);
 
 // run puzzle solvers
 
-day01.solvePart1(currentDate, true);
-day01.solvePart2(currentDate);
+// day01.solvePart1(currentDate, true);
+// day01.solvePart2(currentDate);

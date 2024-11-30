@@ -3,7 +3,7 @@ using csharp.utils;
 namespace csharp.Puzzles;
 
 // This is the boilerplate code for each day's puzzle.
-public static class DecXX
+public static class Boilerplate
 {
     public static void solvePart1(string? date, bool useTestData = false)
     {
