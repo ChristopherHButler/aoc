@@ -3,17 +3,19 @@ package main
 import (
 	"aoc/puzzles"
 	"fmt"
+	"time"
 )
 
 func main() {
-	currentDate := "01-12-2000"
+	currentDate := time.Now().Format("01-02-2006")
 	fmt.Printf("AoC: %s\n", currentDate)
 	fmt.Println("-----------------")
 
 	// test boilerplate
 	// Note - Go does not suport default values or optional parameters.
-	puzzles.Boilerplate.SolvePart1(currentDate, true)
-	puzzles.Boilerplate.SolvePart2(currentDate, true)
+	testDate := "01-01-2000"
+	puzzles.Boilerplate.SolvePart1(testDate, true)
+	puzzles.Boilerplate.SolvePart2(testDate, true)
 
 	// run puzzle solvers
 
