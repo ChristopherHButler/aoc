@@ -80,7 +80,7 @@ public static class Dec01
         Console.WriteLine("Day 01, Part 2: Id lists similarity score");
 
         // create a data file reader and read the file.
-        var dfr = new DataFileReader(date: date, useTestData: useTestData, part: 2);
+        var dfr = new DataFileReader(date: date, useTestData: useTestData, part: 1);
         dfr.ReadFile();
 
         // create two lists of Ids
