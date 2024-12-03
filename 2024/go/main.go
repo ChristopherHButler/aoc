@@ -18,6 +18,9 @@ func main() {
 	// puzzles.Boilerplate.SolvePart2(testDate, true)
 
 	// run puzzle solvers
-	puzzles.Dec01.SolvePart1(currentDate, false) // ans: 3508942
-	puzzles.Dec01.SolvePart2(currentDate, false) // ans: 26593248
+	// puzzles.Dec01.SolvePart1(currentDate, false) // ans: 3508942
+	// puzzles.Dec01.SolvePart2(currentDate, false) // ans: 26593248
+
+	puzzles.Dec02.SolvePart1(currentDate, true) // ans:
+	puzzles.Dec02.SolvePart2(currentDate, true) // ans:
 }
