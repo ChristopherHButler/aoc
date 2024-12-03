@@ -1,6 +1,7 @@
 import {
 	boilerplate,
 	day01,
+	day02,
 } from './puzzles';
 
 
@@ -16,5 +17,8 @@ console.log('-----------------\n');
 
 // run puzzle solvers
 
-day01.solvePart1(currentDate); // ans: 3508942
-day01.solvePart2(currentDate); // ans: 26593248
+// day01.solvePart1(currentDate); // ans: 3508942
+// day01.solvePart2(currentDate); // ans: 26593248
+
+day02.solvePart1(currentDate, true); // ans: 6730673
+day02.solvePart2(currentDate); // ans: 3749

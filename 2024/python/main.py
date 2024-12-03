@@ -2,7 +2,8 @@ from datetime import datetime
 
 from puzzles import (
 	boilerplate,
-	dec01
+	dec01,
+	dec02
 )
 
 
@@ -18,8 +19,11 @@ def main():
 	# boilerplate.solve_part2(test_date, use_test_data=False)
 
 	# Run puzzle solvers
-	dec01.solve_part1(current_date, use_test_data=False) # ans: 3508942
-	dec01.solve_part2(current_date, use_test_data=False) # ans: 26593248
+	# dec01.solve_part1(current_date, use_test_data=False) # ans: 3508942
+	# dec01.solve_part2(current_date, use_test_data=False) # ans: 26593248
+
+	dec02.solve_part1(current_date, use_test_data=True) # ans:
+	dec02.solve_part2(current_date, use_test_data=True) # ans:
 
 # Run main function
 if __name__ == "__main__":
