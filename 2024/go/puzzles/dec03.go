@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-var Dec02 = Puzzle{
+var Dec03 = Puzzle{
 	SolvePart1: func(date string, useTestData bool) {
 		fmt.Println("Day 02, Part 1")
 
