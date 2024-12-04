@@ -1,2 +1,308 @@
 # C#
 
+## Table of Contents
+
+### Basics 
+ - [comments](#comments)
+ - [output](#output)
+ - [variables](#variables)
+ - [if-else](#if-else)
+ - [ternary operator](#ternary-operator)
+ - [switch](#switch)
+ - [loops](#loops)
+ - [arrays](#arrays) are covered under data structures
+ - Functions must be declared inside classes
+
+### Object Oriented Programming
+ - [object oriented programming](#object-oriented-programming)
+
+### LINQ
+ - [LINQ](#linq)
+
+### Data Structures and Algorithms
+ - [data structures](#data-structures)
+ - [algorithms](#algorithms)
+
+<br />
+<hr />
+<br />
+
+## Basics
+
+C# is a statically typed language. This means that you must declare the type of a variable when you declare it.
+
+
+### Comments
+
+Single line comments:
+
+```csharp
+ // Single line comment
+```
+
+Multi-line comments:
+
+```csharp
+ /*
+  * Multi-line comment
+  */
+```
+
+### Output
+
+```csharp
+Console.WriteLine("Hello, World!");
+```
+
+```csharp
+var x = 3;
+Console.Write($"x = {x}");
+```
+
+
+### Input
+
+```csharp
+Console.Write("Enter your name: ");
+string name = Console.ReadLine();
+Console.WriteLine($"Hello, {name}!");
+```
+
+
+
+
+### Variables
+
+syntax:
+
+```csharp
+<type> <variable_name> = <value>;
+```
+
+
+Explicitely declare and initialize variables in C#:
+
+```csharp
+int a = 10;
+float b = 10.5f;
+double c = 10.5;
+bool d = true;
+char d = 'a';
+string b = "Hello";
+```
+
+Implicitly declare and initialize variables in C#:
+
+```csharp
+var a = 10;
+var b = 10.5f;
+var c = 10.5;
+var d = true;
+var e = 'a';
+var f = "Hello";
+```
+
+### if-else
+
+```csharp
+if (condition)
+{
+		// code
+}
+else if (condition)
+{
+		// code
+}
+else
+{
+		// code
+}
+```
+
+### ternary operator
+
+```csharp
+variable = (condition) ? expressionTrue : expressionFalse;
+```
+
+### switch
+
+classic switch statement:
+
+```csharp
+switch (variable)
+{
+		case value1:
+				// code
+				break;
+		case value2:
+				// code
+				break;
+		default:
+				// code
+				break;
+}
+```
+
+new switch statement:
+
+```csharp
+variable switch
+{
+		value1 => // code,
+		value2 => // code,
+		_ => // code
+};
+```
+
+
+### loops
+
+#### while
+
+```csharp
+while (condition)
+{
+		// code
+}
+```
+
+#### do-while
+
+```csharp
+do
+{
+		// code
+} while (condition);
+```
+
+#### for
+
+```csharp
+for (int i = 0; i < 10; i++)
+{
+		// code
+}
+```
+
+#### foreach
+
+```csharp
+foreach (var item in collection)
+{
+		// code
+}
+```
+
+#### break / continue
+
+ - use `break` to exit a loop
+ - use `continue` to skip the rest of the loop and continue with the next iteration
+
+
+### arrays
+
+See the section on data structures for more information on arrays.
+
+### Functions
+
+In C#, all functions must be defined within a class or struct.
+
+You cannot have standalone functions outside of a class or struct. This is different from some other languages like Python or TypeScript, where you can define functions at the global scope.
+
+
+## Object Oriented Programming
+
+### classes
+
+A class is a blueprint for creating objects, providing initial values for state (fields) and implementations of behavior (methods).
+
+```csharp
+public class ClassName
+{
+    // Fields
+		// Fields: Variables declared within a class to hold data.
+    private int field;
+
+    // Properties
+		// Properties: Provide a way to read, write, or compute the values of private fields.
+    public int Property { get; set; }
+
+    // Constructor
+		// Constructor: A special method called when an instance of the class is created.
+    public ClassName(int initialValue)
+    {
+        field = initialValue;
+    }
+
+    // Methods
+		// Methods: Functions defined within a class to perform actions.
+    public void Method()
+    {
+        Console.WriteLine("Method called");
+    }
+}
+```
+
+### Access Modifiers
+
+Access modifiers control the visibility of classes, fields, properties, and methods.
+
+ - `public`: Accessible from any other code.
+ - `private`: Accessible only from within the same class.
+
+
+### Static Classes and Members
+
+A static class cannot be instantiated and can only contain static members.
+
+```csharp
+public static class StaticClass
+{
+		public static int StaticField = 10;
+
+		public static void StaticMethod()
+		{
+				Console.WriteLine("Static method called");
+		}
+}
+```
+
+
+
+
+## LINQ
+
+LINQ (Language Integrated Query) allow you to query data in C#.
+
+You can make use of extension methods syntax or query syntax.
+
+### Extension Methods Syntax
+
+```csharp
+var books = new BookRepository().GetBooks();
+
+var cheapBooks = books
+                    .Where(b => b.Price < 10) // filter
+                    .OrderBy(b => b.Title)    // sort
+                    .Select(b => b.Title);    // fields to populate
+```
+
+
+## Data Structures
+
+### arrays
+
+
+### Lists
+
+
+
+### Dictionaries
+
+
+
+
+
+
+## Algorithms
