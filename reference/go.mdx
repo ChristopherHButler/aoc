@@ -1,2 +1,258 @@
 # Go
 
+## Table of Contents
+
+### Basics 
+ - [comments](#comments)
+ - [output](#output)
+ - [variables](#variables)
+ - [if-else](#if-else)
+ - [ternary operator](#ternary-operator)
+ - [switch](#switch)
+ - [loops](#loops)
+ - [arrays](#arrays) are covered under data structures
+ - [functions](#functions)
+
+
+### Object Oriented Programming
+ - [object oriented programming](#object-oriented-programming)
+
+
+### Data Structures and Algorithms
+ - [data structures](#data-structures)
+ - [algorithms](#algorithms)
+
+<br />
+<hr />
+<br />
+
+## Basics
+
+Go is a statically typed, compiled language designed for simplicity and efficiency.
+
+
+### Comments
+
+Single line comments:
+
+```go
+ // Single line comment
+```
+
+Multi-line comments:
+
+```go
+ /*
+  Multi-line comment
+  */
+```
+
+### Output
+
+Go has three functions to output text:
+
+```go
+package main
+import ("fmt")
+
+func main() {
+		fmt.Print("Hello, World!")
+		fmt.Println("Hello, World!")
+		fmt.Printf("Hello, %s!", name)
+}
+```
+
+
+### Input
+
+Go has a `fmt` package that provides functions to read input from the user.
+
+```go
+package main
+import ("fmt")
+
+func main() {
+		var name string
+		fmt.Print("Enter your name: ")
+		fmt.Scanln(&name)
+		fmt.Printf("Hello, %s!", name)
+}
+```
+
+
+### Variables
+
+In Go, there are two ways to declare a variable:
+
+1. Use the var keyword, followed by variable name and type:
+
+```go
+var name type = value
+```
+
+>**Note:** You always have to specify either type or value (or both).
+
+
+2. Use the `:=` sign, followed by the variable value:
+
+```go
+name := value
+```
+
+Examples:
+
+```go
+var name string = "John"
+var age int = 25
+var isTrue bool = true
+```
+
+
+### if-else
+
+```go
+if (condition)
+{
+		// code
+}
+else if (condition)
+{
+		// code
+}
+else
+{
+		// code
+}
+```
+
+### ternary operator
+
+Go does not have a ternary operator. You can use an if-else statement instead.
+
+
+### switch
+
+classic switch statement:
+
+```go
+switch expression
+{
+		case value1:
+				// code
+				break;
+		case value2:
+				// code
+				break;
+		default:
+				// code
+				break;
+}
+```
+
+
+### loops
+
+#### for loop
+
+```go
+for i := 0; i < 5; i++ {
+		fmt.Println(i)
+}
+```
+
+
+#### break / continue
+
+ - use `break` to exit a loop
+ - use `continue` to skip the rest of the loop and continue with the next iteration
+
+
+#### The range keyword
+
+The `range` keyword is used to iterate over items in an array, slice, channel, or map.
+
+```go
+for index, value := range array {
+		fmt.Println(index, value)
+}
+```
+
+
+### arrays
+
+See the section on data structures for more information on arrays.
+
+### Functions
+
+In Go, you can have top-level functions. Unlike some other languages that require functions to be defined within a class or struct, Go allows you to define functions at the package level. This means you can define functions directly within a package, outside of any type.
+
+Functions are first-class citizens in Go, meaning they can be assigned to variables, passed as arguments, and returned from other functions.
+
+#### Syntax
+
+```go
+func FunctionName(parameter1 type1, parameter2 type2) returnType {
+    // function body
+    return value
+}
+```
+
+Example:
+
+```go
+func add(a int, b int) int {
+		return a + b
+}
+```
+
+
+
+
+## Go structs
+
+Go does not have classes. Instead, it has structures (or struct). A structure is a user-defined data type that groups related data items of different data types.
+
+#### Syntax
+
+```go
+type StructName struct {
+		field1 type1
+		field2 type2
+}
+```
+
+Example:
+
+```go
+type Person struct {
+		name string
+		age int
+}
+```
+
+#### Creating an instance of a struct
+
+```go
+var person Person
+person.name = "Chris"
+person.age = 25
+```
+
+
+## Data Structures
+
+### arrays
+
+
+### Lists
+
+
+
+### Dictionaries
+
+
+
+
+
+
+## Algorithms
