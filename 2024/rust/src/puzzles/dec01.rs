@@ -47,7 +47,7 @@ pub fn solvePart1(date: &str, use_test_data: bool) {
 			}
 
 			let mut outputString: String = String::new();
-			if (use_test_data) {
+			if use_test_data {
 				outputString.push_str("Total [using test data]");
 			} else {
 				outputString.push_str("Total [using puzzle data]");
@@ -108,7 +108,7 @@ pub fn solvePart2(date: &str, use_test_data: bool) {
 			}
 
 			let mut outputString: String = String::new();
-			if (use_test_data) {
+			if use_test_data {
 				outputString.push_str("Total [using test data]");
 			} else {
 				outputString.push_str("Total [using puzzle data]");
