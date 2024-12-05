@@ -27,8 +27,8 @@ Console.WriteLine("-----------------\n");
 // var dec04Part1 = Dec04.solvePart1(currentDate, useTestData: false); // ans: 2464
 // var dec04Part2 = Dec04.solvePart2(currentDate, useTestData: false); // ans: 1982
 
-var dec05Part1 = Dec05.solvePart1(currentDate, useTestData: true); // ans: 
-// var dec05Part2 = Dec05.solvePart2(currentDate, useTestData: true); // ans: 
+// var dec05Part1 = Dec05.solvePart1(currentDate, useTestData: false); // ans: 6384
+// var dec05Part2 = Dec05.solvePart2(currentDate, useTestData: false); // ans: 5353
 
 // validate the solutions
 if (runValidator) 
