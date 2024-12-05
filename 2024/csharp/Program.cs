@@ -18,8 +18,8 @@ Console.WriteLine("-----------------\n");
 // var dec01Part1 = Dec01.solvePart1(currentDate, useTestData: false); // ans: 3508942
 // var dec01Part2 = Dec01.solvePart2(currentDate, useTestData: false); // ans: 26593248
 
-// var dec02Part1 = Dec02.solvePart1("02-12-2024", useTestData: false); // ans: 282
-// var dec02Part2 = Dec02.solvePart2("02-12-2024", useTestData: false); // ans: 349
+var dec02Part1 = Dec02.solvePart1("02-12-2024", useTestData: true); // ans: 282
+var dec02Part2 = Dec02.solvePart2("02-12-2024", useTestData: true); // ans: 349
 
 // var dec03Part1 = Dec03.solvePart1("03-12-2024", useTestData: false); // ans: 188192787
 // var dec03Part2 = Dec03.solvePart2("03-12-2024", useTestData: false); // ans: 113965544

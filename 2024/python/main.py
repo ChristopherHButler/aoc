@@ -5,7 +5,8 @@ from puzzles import (
 	dec01,
 	dec02,
 	dec03,
-	dec04
+	dec04,
+	dec05
 )
 
 
@@ -24,14 +25,18 @@ def main():
 	# dec01.solve_part1(current_date, use_test_data=False) # ans: 3508942
 	# dec01.solve_part2(current_date, use_test_data=False) # ans: 26593248
 
-	# dec02.solve_part1(current_date, use_test_data=True) # ans:
-	# dec02.solve_part2(current_date, use_test_data=True) # ans:
 
-	# dec02.solve_part1(current_date, use_test_data=True) # ans:
-	# dec02.solve_part2(current_date, use_test_data=True) # ans:
+	# dec02.solve_part1("02-12-2024", use_test_data=False) # ans: 282
+	# dec02.solve_part2("02-12-2024", use_test_data=False) # ans: 349
 
-	dec04.solve_part1("04-12-2024", use_test_data=False) # ans: 2464
-	dec04.solve_part2("04-12-2024", use_test_data=False) # ans: 1982
+	# dec03.solve_part1(current_date, use_test_data=True) # ans: 188192787
+	# dec03.solve_part2(current_date, use_test_data=True) # ans: 113965544
+
+	# dec04.solve_part1("04-12-2024", use_test_data=False) # ans: 2464
+	# dec04.solve_part2("04-12-2024", use_test_data=False) # ans: 1982
+
+	# dec05.solve_part1("04-12-2024", use_test_data=False) # ans: 6384
+	# dec05.solve_part2("04-12-2024", use_test_data=False) # ans: 5353
 
 # Run main function
 if __name__ == "__main__":
