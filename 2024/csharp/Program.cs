@@ -18,8 +18,8 @@ Console.WriteLine("-----------------\n");
 // var dec01Part1 = Dec01.solvePart1(currentDate, useTestData: false); // ans: 3508942
 // var dec01Part2 = Dec01.solvePart2(currentDate, useTestData: false); // ans: 26593248
 
-var dec02Part1 = Dec02.solvePart1("02-12-2024", useTestData: true); // ans: 282
-var dec02Part2 = Dec02.solvePart2("02-12-2024", useTestData: true); // ans: 349
+// var dec02Part1 = Dec02.solvePart1("02-12-2024", useTestData: true); // ans: 282
+// var dec02Part2 = Dec02.solvePart2("02-12-2024", useTestData: true); // ans: 349
 
 // var dec03Part1 = Dec03.solvePart1("03-12-2024", useTestData: false); // ans: 188192787
 // var dec03Part2 = Dec03.solvePart2("03-12-2024", useTestData: false); // ans: 113965544
@@ -29,6 +29,25 @@ var dec02Part2 = Dec02.solvePart2("02-12-2024", useTestData: true); // ans: 349
 
 // var dec05Part1 = Dec05.solvePart1(currentDate, useTestData: false); // ans: 6384
 // var dec05Part2 = Dec05.solvePart2(currentDate, useTestData: false); // ans: 5353
+
+// var dec06Part1 = Dec06.solvePart1(currentDate, useTestData: false); // ans: 5101
+// var dec06Part2 = Dec06.solvePart2("06-12-2024", useTestData: false); // ans: 1951
+
+// var dec07Part1 = Dec07.solvePart1("07-12-2024", useTestData: true); // ans: 3351424677624
+// var dec07Part2 = Dec07.solvePart2("07-12-2024", useTestData: false); // ans: 204976636995111
+
+
+// var dec08Part1 = Dec08.solvePart1("08-12-2024", useTestData: false); // ans: 249
+// var dec08Part2 = Dec08.solvePart2("08-12-2024", useTestData: false); // ans: 905
+
+// var dec09Part1 = Dec09.solvePart1("09-12-2024", useTestData: false); // ans: 6344673854800
+// var dec09Part2 = Dec09.solvePart2("09-12-2024", useTestData: false); //    ans: 6360363199987
+
+// var dec10Part1 = Dec10.solvePart1("10-12-2024", useTestData: false); // ans: 552
+// var dec10Part2 = Dec10.solvePart2("10-12-2024", useTestData: false); // ans: 1225
+
+// var dec11Part1 = Dec11.solvePart1("11-12-2024", useTestData: false); // ans: 203457
+var dec11Part2 = Dec11.solvePart2("11-12-2024", useTestData: false); // ans: 241394363462435
 
 // validate the solutions
 if (runValidator) 
