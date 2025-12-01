@@ -33,7 +33,6 @@ public static class Dec01
 
             if (pos == 0)
                 zeros++;
-
         }
 
         var outputString = useTestData ? "Total [using test data]" : "Total [using puzzle data]";
