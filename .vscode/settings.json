@@ -1,0 +1,42 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  
+  // C# specific settings
+  "[csharp]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  
+  // C# extension settings
+  "dotnet.defaultSolution": "2025/csharp/Aoc2025.sln",
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "csharp.format.enable": true,
+  "csharp.semanticHighlighting.enabled": true,
+  
+  // Format document settings
+  "csharp.format.indentation.spaces": 4,
+  "csharp.format.newLine.openBrace": "newLine",
+  "csharp.format.space.afterCast": false,
+  "csharp.format.space.afterKeywordsInControlFlowStatements": true,
+  "csharp.format.space.betweenParentheses": false,
+  "csharp.format.space.aroundBinaryOperators": "beforeAndAfter",
+  
+  // Exclude certain files from formatting
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+    "**/.vs": true
+  }
+}
