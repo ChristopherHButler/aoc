@@ -19,8 +19,8 @@ def main():
 	# boilerplate.solve_part2(test_date, use_test_data=False)
 
 	# Run puzzle solvers
-	# dec01.solve_part1(current_date, use_test_data=False) # ans:
-	# dec01.solve_part2(current_date, use_test_data=False) # ans:
+	dec01.solve_part1(current_date, use_test_data=True) # ans: 1147
+	dec01.solve_part2(current_date, use_test_data=True) # ans: 6789
 
 # Run main function
 if __name__ == "__main__":
