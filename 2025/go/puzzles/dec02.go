@@ -9,7 +9,7 @@ import (
 
 var Dec02 = Puzzle{
 	SolvePart1: func(date string, useTestData bool) {
-		fmt.Println("Day 02, Part 1")
+		fmt.Println("Day 02, Part 1 - pattern recognition")
 
 		lines, err := utils.DataFileReader(date, useTestData, "1", false)
 		if err != nil {
@@ -45,7 +45,7 @@ var Dec02 = Puzzle{
 		fmt.Println("Total:", total)
 	}, // SolvePart1
 	SolvePart2: func(date string, useTestData bool) {
-		fmt.Println("Day 02, Part 2")
+		fmt.Println("Day 02, Part 2 - advanced (chunked) pattern recognition")
 
 		lines, err := utils.DataFileReader(date, useTestData, "1", false)
 		if err != nil {
