@@ -7,7 +7,7 @@ import (
 
 var Dec01 = Puzzle{
 	SolvePart1: func(date string, useTestData bool) {
-		fmt.Println("Day 01, Part 1")
+		fmt.Println("Day 01, Part 1 - circular linked list traversal")
 
 		const N = 100
 		pos := 50
@@ -43,7 +43,7 @@ var Dec01 = Puzzle{
 
 	}, // SolvePart1
 	SolvePart2: func(date string, useTestData bool) {
-		fmt.Println("Day 01, Part 2")
+		fmt.Println("Day 01, Part 2 - circular buffer traversal")
 
 		const N = 100
 		pos := 50
