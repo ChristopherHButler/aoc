@@ -1,7 +1,6 @@
 package main
 
 import (
-	"aoc/puzzles"
 	"fmt"
 	"time"
 )
@@ -20,5 +19,8 @@ func main() {
 
 	// run puzzle solvers
 	// puzzles.Dec01.SolvePart1(currentDate, true) // ans: 1147
-	puzzles.Dec01.SolvePart2(currentDate, true) // ans: 6789
+	// puzzles.Dec01.SolvePart2(currentDate, true) // ans: 6789
+
+	// puzzles.Dec02.SolvePart1(currentDate, true) // ans: 23039913998
+	// puzzles.Dec02.SolvePart2(currentDate, true) // ans: 35950619148
 }
