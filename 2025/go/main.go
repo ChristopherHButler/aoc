@@ -29,5 +29,11 @@ func main() {
 	// puzzles.Dec03.SolvePart2("03-12-2025", true) // ans: 171989894144198
 
 	// puzzles.Dec04.SolvePart1(currentDate, false) // ans: 1460
-	puzzles.Dec04.SolvePart2(currentDate, true) // ans: 9243
+	// puzzles.Dec04.SolvePart2(currentDate, true) // ans: 9243
+
+	// puzzles.Dec05.SolvePart1("05-12-2025", true) // ans: 694
+	// puzzles.Dec05.SolvePart2("05-12-2025", true) // ans: 352716206375547
+
+	// puzzles.Dec06.SolvePart1("06-12-2025", true) // ans: 8108520669952
+	puzzles.Dec06.SolvePart2("06-12-2025", true) // ans: 11708563470209
 }

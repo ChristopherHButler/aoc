@@ -7,7 +7,7 @@ import (
 
 var Dec04 = Puzzle{
 	SolvePart1: func(date string, useTestData bool) {
-		fmt.Println("Day 03, Part 1 - ")
+		fmt.Println("Day 04, Part 1 - ")
 
 		matrix, err := utils.DataFileToMatrix(date, useTestData, "1", false)
 		if err != nil {
@@ -54,7 +54,7 @@ var Dec04 = Puzzle{
 		fmt.Println(outputString, total, "\n\n")
 	}, // SolvePart1
 	SolvePart2: func(date string, useTestData bool) {
-		fmt.Println("Day 03, Part 2 - ")
+		fmt.Println("Day 04, Part 2 - ")
 
 		matrix, err := utils.DataFileToMatrix(date, useTestData, "1", false)
 		if err != nil {
@@ -72,7 +72,7 @@ var Dec04 = Puzzle{
 
 	outerloop:
 		for rowIdx := 0; rowIdx < len(matrix); rowIdx++ {
-			// printMatrix(matrix)
+			utils.PrintMatrix(matrix)
 			row := matrix[rowIdx]
 			for colIdx := 0; colIdx < len(row); colIdx++ {
 				val := row[colIdx]
@@ -105,13 +105,4 @@ var Dec04 = Puzzle{
 
 		fmt.Println(outputString, total, "\n\n")
 	}, // SolvePart2
-}
-
-func printMatrix(matrix [][]string) {
-	for _, row := range matrix {
-		for _, val := range row {
-			fmt.Print(val)
-		}
-		fmt.Println()
-	}
 }
