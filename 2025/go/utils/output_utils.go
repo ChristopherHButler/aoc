@@ -13,3 +13,12 @@ func PrintOutput(val string, useTestData bool) {
 
 	fmt.Println(outputString, val, "\n\n")
 }
+
+func PrintMatrix(matrix [][]string) {
+	for _, row := range matrix {
+		for _, val := range row {
+			fmt.Print(val)
+		}
+		fmt.Println()
+	}
+}
